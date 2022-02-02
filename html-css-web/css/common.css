@@ -1,0 +1,21 @@
+body {
+    background: hsl(160, 100%, 92%);
+    font-family: Source Sans Pro;
+    font-size: 1.4em;
+}
+
+a {
+    color: #1A1B1F;
+}
+
+img {
+    pointer-events: none;
+}
+
+root {
+    display: grid;
+    grid-template-areas: ". header header header ." ". content content content .";
+    grid-template-rows: 8px 16px 1fr 16px 8px;
+    row-gap: 24px;
+    margin-top: 8px;
+}
